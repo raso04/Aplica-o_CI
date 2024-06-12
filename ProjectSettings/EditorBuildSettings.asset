@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Battery/FinalScene.unity
+    guid: 360384f3d457cd34685d96df81085c9c
+  - enabled: 1
+    path: Assets/Scenes/Battery/GameSceneEasy.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ECOMATCH/FinalSceneeco.unity
+    guid: 5de856dd051d891489d63dc07e623b06
+  - enabled: 1
+    path: Assets/Scenes/GreenWords/GWMenuDificuldade.unity
+    guid: 9669b2f0c5dfd194d88202ecf85d581d
+  - enabled: 1
+    path: Assets/Scenes/Battery/GameSceneHard.unity
+    guid: 97912dc66c34699428e5f13221a3fb68
+  - enabled: 1
+    path: Assets/Scenes/Battery/GameSceneMedium.unity
+    guid: c0969969e12377b44ae6906957680ff5
+  - enabled: 1
+    path: Assets/Scenes/Battery/BatteryAprendizagem1.unity
+    guid: 714d7670d56a8eb48877f3ef0208f178
+  - enabled: 1
+    path: Assets/Scenes/Battery/BatteryAprendizagem2.unity
+    guid: 8c6573090eb54934cbbccfe3ec353150
+  - enabled: 1
+    path: Assets/Scenes/Battery/BatteryAprendizagem3.unity
+    guid: fa4d548766779984ea6311b963d2b841
+  - enabled: 1
+    path: Assets/Scenes/Battery/BatteryAprendizagem4.unity
+    guid: cda10be0e35a0624e9081c0ac6956860
+  - enabled: 1
+    path: Assets/Scenes/Battery/BatteryAprendizagem5.unity
+    guid: f70c9da17b5013f4d87eb601ca322ada
+  - enabled: 1
+    path: Assets/Scenes/inicio2.unity
+    guid: 76b62d11f19e9824a89a891d82ead4d0
+  - enabled: 1
+    path: Assets/Scenes/Inicio.unity
+    guid: c0d98f98fe426c94983696b3647fb0ec
+  - enabled: 1
+    path: Assets/Scenes/ECOMATCH/ecomatchhard.unity
+    guid: 54ca0e9702d12134fb47193e06cee1ae
+  - enabled: 1
+    path: Assets/Scenes/ECOMATCH/ecomatchmedium.unity
+    guid: a4cf600c6726d264c8254ec7fef4c6ad
+  - enabled: 1
+    path: Assets/Scenes/ECOMATCH/ecomatcheasy.unity
+    guid: 54550679c446f284d8f20801a90f6a84
+  - enabled: 1
+    path: Assets/Scenes/Battery/MenuDificuldade.unity
+    guid: d2c7dca2a8a75064aa3cfb88888b7b84
+  - enabled: 1
+    path: Assets/Scenes/GreenWords/GWAprendizagem1.unity
+    guid: 58383a18bf75ffa43a50c11960f53525
+  - enabled: 1
+    path: Assets/Scenes/GreenWords/GWAprendizagem2.unity
+    guid: 0bb186087d88f68488cca69f346d4b00
+  - enabled: 1
+    path: Assets/Scenes/GreenWords/GWAprendizagem3.unity
+    guid: 9b328e6e4d1cecb4d9b7bd20e2fd51e3
+  - enabled: 1
+    path: Assets/Scenes/GreenWords/GWAprendizagem4.unity
+    guid: c87921236c99943448bf5c211c3d6858
+  - enabled: 1
+    path: Assets/Scenes/ECOMATCH/ECOAprendizagem1.unity
+    guid: a61bf60adac0b5d4f908964a378ed1ed
+  - enabled: 1
+    path: Assets/Scenes/ECOMATCH/ECOAprendizagem3.unity
+    guid: 4d500b9bfa6650b42826f0dbb46159ab
+  - enabled: 1
+    path: Assets/Scenes/ECOMATCH/ECOAprendizagem2.unity
+    guid: fc9a5ac162577fd43a7b0ed0d3e13772
+  - enabled: 1
+    path: Assets/Scenes/ECOMATCH/ECOAprendizagem4.unity
+    guid: ace88c594b8571046a518c60dcafe717
+  - enabled: 1
+    path: Assets/Scenes/GreenWords/GWEndGame.unity
+    guid: 9939064238803f642877cc554b884f15
+  - enabled: 1
+    path: Assets/Scenes/GreenWords/GWGameScene.unity
+    guid: e4bdcd818270a1b4daa882f9c961df44
+  - enabled: 1
+    path: Assets/Scenes/ECOMATCH/ECOMATCH.unity
+    guid: 2d74245c79c40b4468f66724fe558720
+  - enabled: 1
+    path: Assets/Scenes/ECOMATCH/ecomatchmedium.unity
+    guid: a4cf600c6726d264c8254ec7fef4c6ad
+  m_configObjects: {}
