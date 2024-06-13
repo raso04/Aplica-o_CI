@@ -16,6 +16,6 @@ public class FinalSceneEcoMatch : MonoBehaviour
     public void TestAgain()
     {
         GameManager.Reset();
-        SceneManager.LoadScene("ECOMATCH");
+        SceneManager.LoadScene("ECOMenuDificuldade");
     }
 }

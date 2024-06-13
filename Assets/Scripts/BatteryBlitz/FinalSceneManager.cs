@@ -16,6 +16,6 @@ public class FinalSceneManager : MonoBehaviour
     public void TestAgain()
     {
         GameManager.Reset();
-        SceneManager.LoadScene("MenuDificuldade");
+        SceneManager.LoadScene("BatteryMenuDificuldade");
     }
 }

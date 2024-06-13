@@ -123,51 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &114985492
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 114985495}
-  - component: {fileID: 114985493}
-  m_Layer: 0
-  m_Name: ChangeSceneSair
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &114985493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114985492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6436d7215298f34fa53abfd0dfb7389, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: inicio2
---- !u!4 &114985495
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114985492}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 438.5, y: 246.75, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &160390444
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,7 +772,7 @@ GameObject:
   - component: {fileID: 981214530}
   - component: {fileID: 981214532}
   m_Layer: 0
-  m_Name: ChangeSceneSeguinte
+  m_Name: ChangeScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -862,7 +817,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6436d7215298f34fa53abfd0dfb7389, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: BatteryAprendizagem3
 --- !u!1 &1132120200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,16 +974,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114985493}
+      - m_Target: {fileID: 981214532}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: ChangeSceneAction
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Inicial2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1544752289
@@ -1481,6 +1435,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 507678989}
     m_Modifications:
     - target: {fileID: 1765255519638519957, guid: 423e254b9f5f6834fa786f3e7377e814, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765255519638519957, guid: 423e254b9f5f6834fa786f3e7377e814, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 981214532}
@@ -1491,6 +1449,10 @@ PrefabInstance:
     - target: {fileID: 1765255519638519957, guid: 423e254b9f5f6834fa786f3e7377e814, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: ChangeScene, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765255519638519957, guid: 423e254b9f5f6834fa786f3e7377e814, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: BatteryAprendizagem3
       objectReference: {fileID: 0}
     - target: {fileID: 4137477345910503550, guid: 423e254b9f5f6834fa786f3e7377e814, type: 3}
       propertyPath: m_Name
@@ -1589,4 +1551,3 @@ SceneRoots:
   - {fileID: 1684598897}
   - {fileID: 1700659202}
   - {fileID: 981214531}
-  - {fileID: 114985495}

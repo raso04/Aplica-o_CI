@@ -498,7 +498,7 @@ GameObject:
   - component: {fileID: 39029453}
   - component: {fileID: 39029452}
   m_Layer: 0
-  m_Name: ChangeSceneScript
+  m_Name: ChangeScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -516,7 +516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6436d7215298f34fa53abfd0dfb7389, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MenuDificuldade
 --- !u!4 &39029453
 Transform:
   m_ObjectHideFlags: 0
@@ -1076,7 +1075,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 0
+  m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 250, y: 250}
@@ -1234,7 +1233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6436d7215298f34fa53abfd0dfb7389, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ECOMATCH
 --- !u!1 &654741415 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3973152729870242371, guid: 9593fff9672c8ba4eb7b485e9904f86d, type: 3}
@@ -2260,13 +2258,13 @@ MonoBehaviour:
       - m_Target: {fileID: 535789274}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: ChangeSceneAction
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: ECOMenuDificuldade
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2124643804

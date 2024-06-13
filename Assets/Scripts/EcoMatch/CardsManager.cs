@@ -141,7 +141,7 @@ public class CardsManager : MonoBehaviour
         victoryMusic.Play();
         yield return new WaitForSeconds(victoryMusic.clip.length);
 
-        SceneManager.LoadScene("FinalSceneeco");
+        SceneManager.LoadScene("ECOFinal");
     }
 }
 

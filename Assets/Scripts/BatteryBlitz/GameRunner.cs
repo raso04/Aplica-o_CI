@@ -43,7 +43,7 @@ public class GameRunner : MonoBehaviour
     {
         if (currentTimer > matchTimer || GameManager.GetScore() < 0)
         {
-            SceneManager.LoadScene("FinalScene");
+            SceneManager.LoadScene("BatteryFinal");
         }
 
         currentTimer += Time.deltaTime;

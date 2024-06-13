@@ -17,7 +17,7 @@ public class GWGameManager : MonoBehaviour
 
     private QuestionData[] perguntas;
     private int currentQuestionIndex = 0;
-    private int difficulty = 0;
+    static private int difficulty = 0;
     private static int pontuacao = 0;
 
     void Start()
@@ -149,5 +149,12 @@ public class GWGameManager : MonoBehaviour
     {
         return pontuacao;
     }
-
+    public static void setDificuldade(int dif)
+    {
+        difficulty = dif;
+    }
+    public static void setPontuacao(int pts)
+    {
+        pontuacao = pts;
+    }
 }

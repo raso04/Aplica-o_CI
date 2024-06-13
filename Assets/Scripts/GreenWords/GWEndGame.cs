@@ -16,7 +16,8 @@ public class GWEndGame : MonoBehaviour
     }
     public void GameRestart()
     {
-        SceneManager.LoadScene("GWGameScene");
+        GWGameManager.setPontuacao(0);
+        SceneManager.LoadScene("GWMenuDificuldade");
     }
 
 
