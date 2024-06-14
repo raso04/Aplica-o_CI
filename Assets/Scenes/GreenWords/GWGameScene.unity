@@ -317,7 +317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -810, y: 427.49026}
+  m_AnchoredPosition: {x: -810, y: 401}
   m_SizeDelta: {x: 175.66, y: 165.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &163816110
@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 172640120}
   - component: {fileID: 172640119}
   m_Layer: 5
-  m_Name: musica
+  m_Name: btn_Musica
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -449,7 +449,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 809.1913, y: 427.49026}
+  m_AnchoredPosition: {x: 809.1913, y: 401}
   m_SizeDelta: {x: 171.617, y: 165.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &172640119
@@ -571,6 +571,7 @@ MonoBehaviour:
   pontuacaoText: {fileID: 333789539}
   blinker: {fileID: 690307497}
   successAudio: {fileID: 502786019}
+  animator: {fileID: 1032274161}
 --- !u!4 &244760347
 Transform:
   m_ObjectHideFlags: 0
@@ -620,7 +621,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 180.00003, y: 427.49026}
+  m_AnchoredPosition: {x: 180.00003, y: 410}
   m_SizeDelta: {x: 183.546, y: 134.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &333789539
@@ -1334,7 +1335,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -131.447, y: 427.49026}
+  m_AnchoredPosition: {x: -131.447, y: 410}
   m_SizeDelta: {x: 373.824, y: 121.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &786446071
@@ -1520,6 +1521,7 @@ GameObject:
   - component: {fileID: 1032274158}
   - component: {fileID: 1032274160}
   - component: {fileID: 1032274159}
+  - component: {fileID: 1032274161}
   m_Layer: 5
   m_Name: img_Garrafa
   m_TagString: Untagged
@@ -1584,6 +1586,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032274157}
   m_CullTransparentMesh: 1
+--- !u!95 &1032274161
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032274157}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8f80818c6bfd59b4585d45947504e2d4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1100374513
 GameObject:
   m_ObjectHideFlags: 0

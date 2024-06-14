@@ -2336,7 +2336,7 @@ GameObject:
   - component: {fileID: 1421960465}
   - component: {fileID: 1421960464}
   m_Layer: 5
-  m_Name: musica
+  m_Name: btn_Musica
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
