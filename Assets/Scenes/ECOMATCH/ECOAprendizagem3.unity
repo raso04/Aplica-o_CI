@@ -1755,8 +1755,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 87.742, y: -192.44}
-  m_SizeDelta: {x: -1205.3, y: -881.06604}
+  m_AnchoredPosition: {x: 24.142822, y: -192.52002}
+  m_SizeDelta: {x: -1078.0896, y: -881.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1902061809
 MonoBehaviour:
@@ -1778,7 +1778,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Fonte: kkkkkkkkkkkkkk'
+  m_text: "Fonte: Associa\xE7\xE3o Bora Ambientar (Youtube)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0622d701668cff4ab880689c4984376, type: 2}
   m_sharedMaterial: {fileID: 1011319585066801489, guid: c0622d701668cff4ab880689c4984376, type: 2}
