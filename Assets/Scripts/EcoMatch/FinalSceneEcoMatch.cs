@@ -16,6 +16,15 @@ public class FinalSceneEcoMatch : MonoBehaviour
     public void TestAgain()
     {
         GameManager.Reset();
-        SceneManager.LoadScene("ECOMenuDificuldade");
+        StartCoroutine(waitChange());
+
+
     }
+    IEnumerator waitChange()
+    {
+        yield return new WaitForSeconds(.2f);
+        SceneManager.LoadScene("ECOMenuDificuldade");
+
+    }
+
 }

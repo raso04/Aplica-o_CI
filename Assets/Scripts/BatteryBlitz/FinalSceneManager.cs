@@ -16,6 +16,14 @@ public class FinalSceneManager : MonoBehaviour
     public void TestAgain()
     {
         GameManager.Reset();
+        StartCoroutine(waitChange());
+
+
+    }
+    IEnumerator waitChange()
+    {
+        yield return new WaitForSeconds(.2f);
         SceneManager.LoadScene("BatteryMenuDificuldade");
+
     }
 }

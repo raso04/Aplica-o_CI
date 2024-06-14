@@ -2,6 +2,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 
 public class GWEndGame : MonoBehaviour
@@ -17,8 +18,15 @@ public class GWEndGame : MonoBehaviour
     public void GameRestart()
     {
         GWGameManager.setPontuacao(0);
-        SceneManager.LoadScene("GWMenuDificuldade");
+        StartCoroutine(waitChange());
+       
+       
     }
+    IEnumerator waitChange()
+    {
+        yield return new WaitForSeconds(.2f);
+        SceneManager.LoadScene("GWMenuDificuldade");
 
+    }
 
 }
