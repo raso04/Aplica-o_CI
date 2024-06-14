@@ -14,6 +14,7 @@ public class GWGameManager : MonoBehaviour
     public TextMeshProUGUI pontuacaoText;
     public Image blinker;
     public AudioSource successAudio;
+    public Animator animator;
 
     private QuestionData[] perguntas;
     private int currentQuestionIndex = 0;
@@ -65,6 +66,7 @@ public class GWGameManager : MonoBehaviour
     }
     void DisplayQuestion()
     {
+        animator.ResetTrigger("StartAppear");
         QuestionData pergunta = perguntas[currentQuestionIndex];
         // Set the question text based on the difficulty
         // Shuffle the response arrays
@@ -118,7 +120,7 @@ public class GWGameManager : MonoBehaviour
             AddPoint();
             blinker.color = Color.green;
             questionText.text = perguntas[currentQuestionIndex].palavra;
-
+            animator.SetTrigger("StartFall");
             if (perguntas.Length - 1 == currentQuestionIndex) //Se for a ultima
             {
                 yield return new WaitForSeconds(3);
@@ -130,7 +132,10 @@ public class GWGameManager : MonoBehaviour
                 yield return new WaitForSeconds(3);
                 blinker.color = new Color(27 / 255f, 84 / 255f, 25 / 255f, 1.0f);
                 currentQuestionIndex++;
+                animator.ResetTrigger("StartFall");
                 DisplayQuestion();
+                animator.SetTrigger("StartAppear");
+
             }
 
         }
