@@ -911,9 +911,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: FinalSceneManager, Assembly-CSharp
-        m_MethodName: TestAgain
+      - m_Target: {fileID: 665130111}
+        m_TargetAssemblyTypeName: GWEndGame, Assembly-CSharp
+        m_MethodName: GameRestart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
