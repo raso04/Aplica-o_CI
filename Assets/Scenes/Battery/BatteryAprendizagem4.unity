@@ -1778,7 +1778,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Fonte: kkkkkkkkkkkkkk'
+  m_text: 'Fonte: ERP PORTUGAL (Youtube)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0622d701668cff4ab880689c4984376, type: 2}
   m_sharedMaterial: {fileID: 1011319585066801489, guid: c0622d701668cff4ab880689c4984376, type: 2}
