@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Inicial.unity
+    guid: c0d98f98fe426c94983696b3647fb0ec
+  - enabled: 1
     path: Assets/Scenes/Battery/BatteryFinal.unity
     guid: 360384f3d457cd34685d96df81085c9c
   - enabled: 1
@@ -41,9 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Inicial2.unity
     guid: 76b62d11f19e9824a89a891d82ead4d0
-  - enabled: 1
-    path: Assets/Scenes/Inicial.unity
-    guid: c0d98f98fe426c94983696b3647fb0ec
   - enabled: 1
     path: Assets/Scenes/ECOMATCH/ECOGameHard.unity
     guid: 54ca0e9702d12134fb47193e06cee1ae

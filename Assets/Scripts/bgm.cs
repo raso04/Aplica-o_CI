@@ -11,8 +11,22 @@ public class bgm : MonoBehaviour
 
     private void Awake()
     {
-        GameObject objBGM = GameObject.Find("BGM");
-        DontDestroyOnLoad(objBGM);
+        // Check if a BGM object already exists
+        GameObject existingBGM = GameObject.Find("BGM");
+
+        if (existingBGM != null && existingBGM != gameObject)
+        {
+            // Destroy the new instance if an existing one is found
+            Destroy(gameObject);
+        }
+        else
+        {
+            // Assign this as the existing BGM instance
+            gameObject.name = "BGM";
+            DontDestroyOnLoad(gameObject);
+            InitializeButton();
+        }
+
         SceneManager.sceneLoaded += OnSceneLoaded;  // Subscribe to the sceneLoaded event
     }
 
