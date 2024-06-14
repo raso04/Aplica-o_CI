@@ -779,10 +779,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 665130108}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2024faf2b7cc57f479c4c43c1ed36eee, type: 3}
+  m_Script: {fileID: 11500000, guid: 9cdc715221221b8459e6b0f62b1cd88d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answersText: {fileID: 419777845}
+  pontuacaoText: {fileID: 419777845}
 --- !u!1 &693070358
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,7 +911,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 665130111}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: FinalSceneManager, Assembly-CSharp
         m_MethodName: TestAgain
         m_Mode: 1
