@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class bgm : MonoBehaviour
 {
@@ -24,10 +25,9 @@ public class bgm : MonoBehaviour
             // Assign this as the existing BGM instance
             gameObject.name = "BGM";
             DontDestroyOnLoad(gameObject);
-            InitializeButton();
+            SceneManager.sceneLoaded += OnSceneLoaded;  // Subscribe to the sceneLoaded event
+            StartCoroutine(InitializeButtonWithDelay());
         }
-
-        SceneManager.sceneLoaded += OnSceneLoaded;  // Subscribe to the sceneLoaded event
     }
 
     private void OnDestroy()
@@ -37,16 +37,18 @@ public class bgm : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        InitializeButton(); // Initialize the button when a new scene is loaded
+        StartCoroutine(InitializeButtonWithDelay()); // Initialize the button with a delay when a new scene is loaded
     }
 
-    private void InitializeButton()
+    private IEnumerator InitializeButtonWithDelay()
     {
+        yield return new WaitForSeconds(0.1f); // Slight delay to ensure the scene is fully loaded
+
         GameObject buttonObject = GameObject.Find("btn_Musica");
         if (buttonObject == null)
         {
             Debug.LogWarning("Button 'btn_Musica' not found in the scene.");
-            return;
+            yield break;
         }
 
         Button btn = buttonObject.GetComponent<Button>();
@@ -73,7 +75,7 @@ public class bgm : MonoBehaviour
         {
             objBGM.GetComponent<AudioSource>().volume = 0;
             isPlaying = false;
-            InitializeButton();
+            StartCoroutine(InitializeButtonWithDelay());
         }
     }
 
@@ -84,7 +86,7 @@ public class bgm : MonoBehaviour
         {
             objBGM.GetComponent<AudioSource>().volume = 0.69f;
             isPlaying = true;
-            InitializeButton();
+            StartCoroutine(InitializeButtonWithDelay());
         }
     }
 }

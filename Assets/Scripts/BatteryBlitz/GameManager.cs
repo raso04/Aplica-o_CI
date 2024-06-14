@@ -13,7 +13,7 @@ public static class GameManager
 
     public static void IncrementWrongAnswer()
     {
-        score--;
+        if(score!=0) score--;
     }
 
     public static int GetScore()
