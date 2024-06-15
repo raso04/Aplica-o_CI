@@ -361,7 +361,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: GWAprendizagem.mp4
+          m_StringArgument: Papel.mp4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &149582599
@@ -969,7 +969,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: O que acontece ao vidro depois do ecoponto verde?
+  m_text: "RECICLAGEM DE PAPEL \u2013 COMO FUNCIONA?\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0622d701668cff4ab880689c4984376, type: 2}
   m_sharedMaterial: {fileID: 1011319585066801489, guid: c0622d701668cff4ab880689c4984376, type: 2}
@@ -1680,7 +1680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sociedade Ponto Verde (Youtube)
+  m_text: "Info Sustent\xE1vel (Youtube)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c0622d701668cff4ab880689c4984376, type: 2}
   m_sharedMaterial: {fileID: 1011319585066801489, guid: c0622d701668cff4ab880689c4984376, type: 2}

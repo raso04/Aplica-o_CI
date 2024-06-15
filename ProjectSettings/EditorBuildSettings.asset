@@ -92,4 +92,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ECOMATCH/ECOGameMedium.unity
     guid: a4cf600c6726d264c8254ec7fef4c6ad
+  - enabled: 1
+    path: Assets/Scenes/PIXEL/PixelAprendizagem1.unity
+    guid: 755bc117a5d051b4598359f796582703
+  - enabled: 1
+    path: Assets/Scenes/PIXEL/PixelAprendizagem2.unity
+    guid: c5a07b4ab5071a04cab689940885a7bb
+  - enabled: 1
+    path: Assets/Scenes/PIXEL/PixelAprendizagem3.unity
+    guid: 630a4eb62d2c33c49b3194ec2651145c
+  - enabled: 1
+    path: Assets/Scenes/PIXEL/PixelAprendizagem4.unity
+    guid: 9a7c48d4ecd323a46bc9fbbb9d83289a
+  - enabled: 1
+    path: Assets/Scenes/PIXEL/PixelEndGame.unity
+    guid: 916967a32306c0a468bfe28b346c0caa
+  - enabled: 1
+    path: Assets/Scenes/PIXEL/PixelGameEasy.unity
+    guid: 6925ed70bb01c28409a22ef9708b4b30
+  - enabled: 1
+    path: Assets/Scenes/PIXEL/PixelGameHard.unity
+    guid: d507c79ffff0eb346bcf95b52e310b19
+  - enabled: 1
+    path: Assets/Scenes/PIXEL/PixelGameMedium.unity
+    guid: 38c8fbaa0fcf5624bad960a971e434a4
+  - enabled: 1
+    path: Assets/Scenes/PIXEL/PixelMenuDificuldade.unity
+    guid: bc394c9b5d955df45b22873b1177b4e4
   m_configObjects: {}
