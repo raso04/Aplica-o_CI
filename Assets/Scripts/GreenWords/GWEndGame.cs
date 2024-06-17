@@ -17,7 +17,7 @@ public class GWEndGame : MonoBehaviour
     }
     public void GameRestart()
     {
-        GWGameManager.setPontuacao(0);
+        GWGameManager.resetAll();
         StartCoroutine(waitChange());
        
        

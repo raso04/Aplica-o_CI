@@ -17,8 +17,8 @@ public class GWGameManager : MonoBehaviour
     public Animator animator;
 
     private QuestionData[] perguntas;
-    private int currentQuestionIndex = 0;
-    static private int difficulty = 0;
+    private static int currentQuestionIndex = 0;
+    private static int difficulty = 0;
     private static int pontuacao = 0;
 
     void Start()
@@ -113,6 +113,10 @@ public class GWGameManager : MonoBehaviour
     // Coroutine that waits for 3 seconds before continuing
     IEnumerator manageAnswer(string selectedAnswer, string correctAnswer)
     {
+        answerButton1.onClick.RemoveAllListeners();
+        answerButton2.onClick.RemoveAllListeners();
+        answerButton3.onClick.RemoveAllListeners();
+        answerButton4.onClick.RemoveAllListeners();
 
         if (selectedAnswer == correctAnswer) //Se a resposta estiver certa
         {
@@ -164,5 +168,10 @@ public class GWGameManager : MonoBehaviour
     public static void setPontuacao(int pts)
     {
         pontuacao = pts;
+    }
+    public static void resetAll()
+    {
+        pontuacao = 0;
+        currentQuestionIndex = 0;
     }
 }
